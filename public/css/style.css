@@ -1,0 +1,90 @@
+/*********************************************** 
+ iceburg CSS by Brice Burgess @ iceburg.net
+ ***********************************************/
+ 
+
+/* Base Styles
+ ***********************************************/ 
+
+body {
+    background: #1d346f;
+    font-family: Verdana, sans-serif;
+    color: #fff;
+}
+
+a,
+a:hover,
+a:visited {text-decoration: none; color: #32cdcd; }
+
+.right {float: right;}
+.left {float: left;}
+.clear {clear: both;}
+.nopad {padding: 0px 0px;}
+.center {margin: 0 auto; text-align: center;}
+.justify { justify-content: space-around; text-justify: distribute; }
+
+
+
+nav ul {list-style: none; padding: 0 0; margin: 0 0;}
+nav ul li {float: left; margin-left: 12px;}
+nav ul li:first-child {margin-left: 0px;}
+nav ul li a { display: block;}
+
+
+
+/* Page Layout
+ ***********************************************/
+
+
+div.full-width {
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+
+div.page-width {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+div.content-width {
+    width: 70%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 108px;
+    padding-top: 33px;
+}
+
+
+div.content-width.nopad { padding: 0 0;}
+
+div.content-width:before {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+p.filler {padding: 6em 0; text-align: center;}
+
+#content-container { border-top: 2px solid #000; }
+
+
+/* Page Colorings
+ ***********************************************/
+
+.bg-white{ background: #fff; color: #000; }
+.bg-white a,
+.bg-white a:visited { color: #E8421F; }
+.bg-white a:hover { color: #E8421F; }
+
+
+.bg-blue{ background: #1d346f; color: #FFF; }
+.bg-blue a,
+.bg-blue a:visited { color: #E8421F; }
+.bg-blue a:hover { color: #E8421F; }
+
+
+/* Style Overrides
+ ***********************************************/
+ 
